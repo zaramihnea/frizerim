@@ -1,1 +1,0 @@
-sitemap: https://fizhelp.fun/sitemap.xml

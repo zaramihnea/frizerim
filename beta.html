@@ -43,37 +43,36 @@
     <![endif]-->
 
 </head>
-<body>
+<body id="top">
     <header id="masthead" class="site-header">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
 
                 <div class="navbar-header">
-                   
-                    <a class="site-title"><span>frizerim</span></a>
-
+                    <img src="assets/img/logo.png" width="150" alt="" class="d-inline-block align-middle mr-2">
                 </div><!-- /.navbar-header -->
                 
                 <div class="collapse navbar-collapse" id="agency-navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html" data-toggle="dropdown">Home</a></li>
-                        <li><a href="#despre">Despre</a></li>
-                        <li><a href="#educatie">Educatie</a></li>
-                        <li><a href="#exemple">Exemple</a></li>
-                        <li><a href="#who">Cine suntem</a></li>
+                        <li class="active" id="link1"><a href="#top">Home</a></li>
+                        <li id="link2"><a href="#despre">Despre</a></li>
+                        <li id="link3"><a href="#educatie">Educatie</a></li>
+                        <li id="link4"><a href="#exemple">Exemple</a></li>
+                        <li id="link5"><a href="#who">Cine suntem</a></li>
                         <li><a href="https://rezervio.ro/locatie/frizerim/34">Rezerva acum</a></li>
                     </ul>
                 </div>
-            </div>   
+            </div> 
             <br>
-            <br>
+            <br>  
         </nav><!-- /.site-navigation -->
     </header><!-- /#mastheaed -->
+    
     <div id="hero" class="hero overlay">
         <div class="hero-content">
-            <div class="hero-text">
+            <div class="hero-text" id="hello">
                 <h1>Frizerim Barbers</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Tundem…Gândim…Frizerim!</p>
                 <div class="col-sm-12">
                 <a href="#main" class="btn btn-border">Afla mai mult</a>
                 <a href="https://rezervio.ro/locatie/frizerim/34" class="btn btn-rezerva">Rezerva acum</a>
@@ -88,8 +87,11 @@
 
         <section class="site-section section-services gray-bg text-center" id="despre">
             <div class="container">
-                <h2 class="heading-separator">Despre</h2>
-                <p class="subheading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <h2 class="heading-separator">Despre noi</h2>
+                <h4>O noua forma de abordare a imaginii masculine</h2>
+                    <br>
+                <p class="subheading-text">O noua viziune care pune accent pe detalii &#351;i personalizează tunsoarea pe măsura fiecărui client. Un nou concept &#238;n care Bărbatul este personajul principal. Studiul continuu, urmat de rezultate excelente &#351;i experien&#355;ă îndelungată, au dat naștere acestui salon, fructul a multor ani de sacrificiu și cercetare.</p>
+                <img src="assets/img/image1.jpg" class="rounded mx-auto d-block" alt="..." style="max-width: 50%; height: auto;">
             </div>
         </section>
 
@@ -98,6 +100,21 @@
             <div class="container">
                 <h2 class="heading-separator">Educatie</h2>
                 <p class="subheading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/image3.jpg" class="img-res" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/image4.jpg" class="img-res" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/image5.jpg" class="img-res" alt="">
+                        </div>
+                    </div>
             </div>
         </section>
 
@@ -164,7 +181,7 @@
                         <div class="inner">
                             <a href="#" class="image"><img src="assets/img/second.jpg" alt="" /></a>
                             <div class="content">
-                                <h2 class="major" style="text-align: left;">Lorem Ipsum</h2>
+                                <h2 class="major" style="text-align: left;">Robert Col&#355;a</h2>
                                 <p style="text-align: left;">Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
                             </div>
                         </div>
@@ -212,7 +229,7 @@
                     </div>
                     <div class="col-xs-4">
                         <div class="text-right">
-                            <p>&copy; frizerim 2022</p>
+                            <p>&copy; frizerim</p>
                             <p>All Rights Reserved</p>
                         </div>
                     </div>
@@ -233,9 +250,10 @@
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-        
-
+        $('li').on('click', function(){
+        $('li').removeClass('active');
+        $(this).toggleClass('active');
+        })
     </script>
-    
 </body>
 </html>

@@ -1,3 +1,7 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+html {
+    scroll-behavior: smooth;
+}
 a {
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -614,7 +618,7 @@ html, body {
 .site-header {
     position: absolute;
     padding: 50px 0 0;
-    background-image: linear-gradient(rgb(153,153,153, 1), rgb(153,153,153, 0));
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0));
     width: 100%;
     z-index: 3;
     position:fixed;
@@ -644,7 +648,6 @@ html, body {
 .navbar-collapse {
     text-align: center;
 }
-
 .navbar-nav {
     float: none;
     display: inline-block;
@@ -1849,4 +1852,10 @@ cover;
             padding: 2em 1.5em 0.1em 1.5em ;
         }
 
+    }
+
+    .content {
+        display: flex;
+        align-items: top;
+        flex-wrap: wrap;
     }

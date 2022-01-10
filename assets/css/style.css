@@ -1,4 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,7 +17,10 @@ a {
     cursor: pointer;
     color: #9fa3a7;
 }
-
+ul li:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+}
 a:focus,
 a:hover {
     color: #6fc754;
@@ -618,6 +627,9 @@ html, body {
 .site-header {
     position: absolute;
     padding: 50px 0 0;
+    height: 110px;
+    
+
     background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0));
     width: 100%;
     z-index: 3;
@@ -1853,3 +1865,5 @@ cover;
         }
 
     }
+
+    

@@ -625,11 +625,8 @@ html, body {
 /* HEADER
 ================================================== */
 .site-header {
-    position: absolute;
-    padding: 50px 0 0;
-    height: 110px;
-    
-
+    padding: 30px 0 0;
+    height: 90px;
     background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0));
     width: 100%;
     z-index: 3;
@@ -641,11 +638,11 @@ html, body {
 .site-title {
     font-size: 18px;
     line-height: 26px;
-    color: #26272d;
+    color: black;
 }
 
 .site-title:hover {
-    color: #26272d;   
+    color: black;   
 }
 
 .site-title span {
@@ -704,6 +701,7 @@ html, body {
 .slicknav_nav > li a:hover {
     background-color: transparent;
     color: #008577;
+    
 }
 
 .navbar-toggle {
@@ -796,10 +794,12 @@ html, body {
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
+    color: #2f2f2f;
 }
 
 .hero-text h1 {
     position: relative;
+    color: black;
     margin: 0;
 }
 
@@ -807,12 +807,14 @@ html, body {
     position: relative;
     margin: 45px 0 30px;
     font-size: 20px;
-    color: #26272d;
+    color: #2f2f2f;
 }
 
 .hero-text .btn {
     position: relative;
     background-color: transparent;
+    color: #2f2f2f;
+    
 }
 
 .hero-text .btn:hover {

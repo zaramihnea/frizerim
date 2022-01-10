@@ -12,7 +12,6 @@
 		font-size: 18px;
 		margin: 35px 0 25px;
 	}
-
 	/* SITEMAIN */
 	/* Section: Map Feature */
 	.section-map-feature {
@@ -219,7 +218,9 @@
 	.navbar-header .site-title {
 		padding-left: 15px;
 	}
-
+	.navbar-header img {
+		padding-left: 15px;
+	}
 	/* Navigation */
 	.site-navigation {
 		position: absolute;
@@ -228,7 +229,7 @@
 	.main-menu {
 		display: none;
 	}
-
+	
 	.slicknav_menu,
 	.slicknav_item {
 		position: relative;
@@ -633,7 +634,7 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
 	/* SITEMAIN */
-
+	
 	.section-services .col-xs-6 {
 		width: 100%;
 	}
@@ -711,5 +712,5 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-
+	
 }

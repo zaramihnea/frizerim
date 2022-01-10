@@ -19,7 +19,11 @@ a {
 }
 ul li:hover{
     transform:scale(1.1);
-    transition: 0.3s;
+    transition: all 0.25s ease-in-out;
+}
+.logoanim {
+    transform:scale(1.1);
+    transition: all 0.25s ease-in-out;
 }
 a:focus,
 a:hover {
@@ -1867,5 +1871,3 @@ cover;
         }
 
     }
-
-    

@@ -1853,9 +1853,3 @@ cover;
         }
 
     }
-
-    .content {
-        display: flex;
-        align-items: top;
-        flex-wrap: wrap;
-    }

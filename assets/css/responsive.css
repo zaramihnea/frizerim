@@ -391,7 +391,9 @@
 		text-align: center;
 		padding: 5px 0;
 	}
-
+        .navbar-header img {
+		padding-left: 15px;
+	}
 	/* HERO */
 	.hero-content {
 		padding-top: 45px;

@@ -60,7 +60,7 @@
                         <li id="link3"><a href="#educatie"><b>Educatie</b></a></li>
                         <li id="link4"><a href="#exemple"><b>Exemple</b></a></li>
                         <li id="link5"><a href="#who"><b>Cine suntem</b></a></li>
-                        <li><a href="https://rezervio.ro/locatie/frizerim/34" target="_blank"><b>Rezerva acum</b></a></li>
+                        <li><ab href="https://rezervio.ro/locatie/frizerim/34" target="_blank"  id="ab"><b>Rezerva acum</b></ab></li>
                     </ul>
                 </div>
             </div> 
@@ -110,7 +110,7 @@
 
         <section class="site-section section-services gray-bg text-center" id="educatie">
             <div class="container">
-                <h2 class="heading-separator"><b>Educatie</b></h2>
+                <h2 class="heading-separator"><b>Educație</b></h2>
                 <p class="subheading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 <div class="row justify-content-center">
                     <div class="col col-md-4 col-xs-6">
@@ -128,10 +128,14 @@
                             <img src="assets/img/image5.jpg" class="img-res" alt="">
                         </div>
                     </div>
-                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <video id="bgVideo" controls preload="true" autoplay loop muted>
+                        <source src="assets/img/movie1.mp4" type="video/mp4" >
+                    </video>
+                </div>
             </div>
         </section>
-
         <section class="site-section section-portfolio" id="exemple">
             <div class="container">
                 <div class="text-center">
@@ -258,8 +262,8 @@
     <script src="assets/js/script.js"></script>
     <script>
         $('li').on('click', function(){
-        $('li').removeClass('active');
-        $(this).toggleClass('active');
+                $('li').removeClass('active');
+                $(this).toggleClass('active');  
         })
     </script>
 </body>

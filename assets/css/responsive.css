@@ -444,7 +444,7 @@
 	video#bgVideo {
 		border-radius: 25px;
 		width: auto;
-		height: 100%;
+		height: 90%;
 	}
 	/* Section: Map Feature */
 	.section-map-feature {
@@ -659,7 +659,7 @@
 	video#bgVideo {
 		border-radius: 25px;
 		width: auto;
-		height: 80%;
+		height: 70%;
 	}
 	.section-services .col-xs-6 .service{
 		min-height: 100%;

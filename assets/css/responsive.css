@@ -58,6 +58,11 @@
 		padding-top: 65px;
 	}
 
+	video#bgVideo {
+		border-radius: 25px;
+		width: auto;
+		height: 130%;
+	}
 	.hero-text {
 		max-width: 750px;
 	}
@@ -391,9 +396,7 @@
 		text-align: center;
 		padding: 5px 0;
 	}
-        .navbar-header img {
-		padding-left: 15px;
-	}
+
 	/* HERO */
 	.hero-content {
 		padding-top: 45px;
@@ -438,6 +441,11 @@
 		margin: 15px 0 5px;
 	}
 
+	video#bgVideo {
+		border-radius: 25px;
+		width: auto;
+		height: 100%;
+	}
 	/* Section: Map Feature */
 	.section-map-feature {
 	    padding-top: 100px;
@@ -640,7 +648,19 @@
 	.section-services .col-xs-6 {
 		width: 100%;
 	}
-
+	.hero { 
+		background: url(../img/hero.jpg) no-repeat center / cover; 
+		height: 100%;
+		width: 100%;
+		display: table;
+		position: relative;
+		border-radius: 15px;
+	}
+	video#bgVideo {
+		border-radius: 25px;
+		width: auto;
+		height: 80%;
+	}
 	.section-services .col-xs-6 .service{
 		min-height: 100%;
 	}

@@ -8,7 +8,7 @@
 html {
     scroll-behavior: smooth;
 }
-#ab{
+*ab{
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -27,8 +27,8 @@ html {
     outline: 0 none;
     text-decoration: none;
 }
-#ab:focus,
-#ab:hover {
+*ab:focus,
+*ab:hover {
     background-color: #2E8B57;
     outline: 0 none;
     text-decoration: none;

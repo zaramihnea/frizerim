@@ -8,7 +8,7 @@
 html {
     scroll-behavior: smooth;
 }
-*ab{
+#ab{
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -27,8 +27,11 @@ html {
     outline: 0 none;
     text-decoration: none;
 }
-*ab:focus,
-*ab:hover {
+c {
+    color: #2E8B57;
+}
+#ab:focus,
+#ab:hover {
     background-color: #2E8B57;
     outline: 0 none;
     text-decoration: none;
@@ -56,12 +59,11 @@ a:hover {
     outline: 0 none;
     text-decoration: none;
 }
-
 p {
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 300;
-    color: #9fa3a7;
+    color: #232323;
     line-height: 22px;
 }
 
@@ -74,7 +76,7 @@ h2 {
 }
 
 h1,h2,h3,h4,h5 {
-    color: #26292c;
+    color: #191a1b;
 }
 
 p + p {
@@ -923,7 +925,7 @@ html, body {
 video#bgVideo {
     border-radius: 25px;
     width: auto;
-    height: 170%;
+    height: 150%;
 }
 .heading-separator:after {
     content: "";
@@ -1091,7 +1093,7 @@ video#bgVideo {
 /* FOOTER
 ================================================== */
 .site-footer {
-    background-color: #f5f5f8;
+    
     padding-top: 95px;
 }
 
@@ -1899,4 +1901,149 @@ cover;
             padding: 2em 1.5em 0.1em 1.5em ;
         }
 
+    }
+
+    @media (prefers-color-scheme: dark){
+        html,body{
+            background-color: #242424;
+        }
+        .hero { 
+            background: url(../img/hero.jpg) no-repeat center / cover; 
+            height: 100%;
+            width: 100%;
+            display: table;
+            position: relative;
+        }
+        c{
+            color:#6fc754;
+        }
+        .overlay:before {
+          content: '';
+          background-color: rgba(68, 67, 67, 0.5);
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 0;
+        }
+        .btn-border {
+            border: 2px solid white;
+        }
+
+        .btn-rezerva {
+            border: 2px solid white;
+        }
+
+        .hero-content {
+            display: table-cell;
+            vertical-align: middle;
+            padding-top: 75px;
+        }
+        #ab{
+            transition: all 0.25s ease-in-out;
+            -moz-transition: all 0.25s ease-in-out;
+            -webkit-transition: all 0.25s ease-in-out;
+            -o-transition: all 0.25s ease-in-out;
+            -ms-transition: all 0.25s ease-in-out;
+            cursor: pointer;
+            color: #9fa3a7;
+            border-radius: 40px;
+            background-color: #6fc754;
+            width: 150px;
+            height: 50px;
+            font-size:medium;
+            margin:auto;
+            padding: 10px;
+            color: white;
+            outline: 0 none;
+            text-decoration: none;
+        }
+        #ab:focus,
+        #ab:hover {
+            background-color: #2E8B57;
+            outline: 0 none;
+            text-decoration: none;
+        }
+        p{
+            color:white;
+        }
+        b{
+            color:white;
+        }
+        h1,h2,h3,h4,h5 {
+            color: white;
+        }
+        .subheading-text{
+            color:white;
+        }
+        site-footer {
+            background-color: black;
+            padding-top: 95px;
+        }
+        .gray-bg{
+            background-color:black;
+        }
+        i {
+            color:white;
+        }
+        .site-header:after {
+            padding: 30px 0 0;
+            height: 90px;
+            background-image: linear-gradient(black, white);
+            width: 100%;
+            z-index: 3;
+            position:fixed;
+            top:0;
+        }
+        a{
+            color:white;
+        }
+        a:focus,
+        a:hover {
+            color: #6fc754;
+            outline: 0 none;
+            text-decoration: none;
+        }
+        .list-unstyled li a,
+        .list-unstyled li p {
+            color: white;
+        }
+    
+        .list-unstyled li a:hover,
+        .list-unstyled li.active a {
+            color: #6fc754;
+        }
+        .wrapper {
+            background-color: #141414;
+            margin: 6.5em 0;
+            position: relative;
+        }
+        
+            .wrapper:before, .wrapper:after {
+                background-color: #141414;
+            }
+        
+            .wrapper:before {
+                backdrop-color: #141414;
+            }
+        
+            .wrapper:after {
+                background-color: #141414;
+            }
+            .wrapper.spotlight {
+                background-color: #141414;
+            }
+        
+                .wrapper.spotlight:before, .wrapper.spotlight:after {
+                    background-color: #141414;
+                }
+        
+                .wrapper.spotlight:before {
+                    background-color: #141414;
+                }
+        
+                .wrapper.spotlight:after {
+                    background-color: #141414;
+                }
     }

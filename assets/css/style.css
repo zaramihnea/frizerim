@@ -1987,15 +1987,6 @@ cover;
         i {
             color:white;
         }
-        .site-header:after {
-            padding: 30px 0 0;
-            height: 90px;
-            background-image: linear-gradient(black, white);
-            width: 100%;
-            z-index: 3;
-            position:fixed;
-            top:0;
-        }
         a{
             color:white;
         }
@@ -2045,5 +2036,46 @@ cover;
         
                 .wrapper.spotlight:after {
                     background-color: #141414;
+                }
+
+                .nav .open > a, 
+                .nav .open > a:focus, 
+                .nav .open > a:hover,
+                .navbar-nav > li > a:hover,
+                .navbar-nav > li > a:focus,
+                .navbar-nav > li.active > a,
+                .navbar-collapse li a:hover,
+                .dropdown.open > a, 
+                .site-header-white .dropdown.open > a,
+                .dropdown-menu a:hover, 
+                .dropdown:hover > a, 
+                .dropdown-menu>li>a:focus,
+                .dropdown-menu li a:hover,
+                .slicknav_nav > li.active a,
+                .slicknav_open .slicknav_arrow,
+                .slicknav_nav > li a:hover {
+                    background-color: transparent;
+                    color: #008577;
+                    
+                }
+                
+                .navbar-toggle {
+                    border-color: #fff;
+                    margin: 0 10px 0 0;
+                    position: relative;
+                    top: -1px;
+                }
+                .site-header {
+                    padding: 30px 0 0;
+                    height: 90px;
+                    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+                    width: 100%;
+                    z-index: 3;
+                    position:fixed;
+                    top:0;
+                }
+                .site-header-white .navbar-nav > li > a,
+                .site-header-white .site-title {
+                    color: rgba(255, 255, 255, 0);
                 }
     }

@@ -736,3 +736,22 @@
 @media only screen and (max-width : 320px) {
 	
 }
+
+@media (prefers-color-scheme:dark){
+	.slicknav_nav {
+		background-color: #363636;
+		padding-left: 0;
+		list-style: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		height: 100%;
+		width: 100%;
+		overflow-y: scroll;
+		text-align: center;
+	}
+	.slicknav_icon-bar {
+		background-color: white;
+	}
+}

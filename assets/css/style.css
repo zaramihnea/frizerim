@@ -1947,7 +1947,7 @@ cover;
             -o-transition: all 0.25s ease-in-out;
             -ms-transition: all 0.25s ease-in-out;
             cursor: pointer;
-            color: #9fa3a7;
+            color: white;
             border-radius: 40px;
             background-color: #6fc754;
             width: 150px;
@@ -2077,5 +2077,11 @@ cover;
                 .site-header-white .navbar-nav > li > a,
                 .site-header-white .site-title {
                     color: rgba(255, 255, 255, 0);
+                }
+                li{
+                    color: white;
+                }
+                .navbar-nav > li > a {
+                    color: white;
                 }
     }

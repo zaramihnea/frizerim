@@ -754,4 +754,9 @@
 	.slicknav_icon-bar {
 		background-color: white;
 	}
+	.slicknav_nav > li a {
+		display: inline-block;
+		color: white;
+		font-size: 14px;
+	}
 }

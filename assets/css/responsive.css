@@ -357,7 +357,7 @@
 	.slicknav_nav > li a {
 		display: inline-block;
 		color: #26272d;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	.slicknav_arrow {
@@ -757,6 +757,6 @@
 	.slicknav_nav > li a {
 		display: inline-block;
 		color: white;
-		font-size: 14px;
+		font-size: 20px;
 	}
 }
